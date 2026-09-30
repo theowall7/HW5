@@ -14,8 +14,7 @@ function draw()
 
   background(58, 38, 89)
 
-  -- Skyscrapers
-
+  -- Draw skyscrapers
   stroke(58, 38, 89)
   fill(0)
   rect(width/1050, height/ 2, width/9, width/2)
@@ -39,7 +38,6 @@ function draw()
   stroke(58, 38, 89)
   fill(0)
   rect(width/4.5, height/9, width/7, width/2)
-
 
   stroke(58, 38, 89)
   fill(0)
@@ -76,7 +74,12 @@ function draw()
   stroke(58, 38, 89)
   fill(0)
   rect(width/1.14, height/2.6, width/15, width/2)
- 
+
+  -- Draw train
+  stroke(58, 38, 89)
+  fill(252, 252, 252)
+  rect(width/0, height/1.17, width/100, width/2)
+  
 
  
 
@@ -90,7 +93,7 @@ function draw()
   
  
 
-  fill(0)
+  fill(252, 252, 252)
   text("X: "..mouseX.."  Y: "..mouseY, mouseX+5,mouseY+30)
  
 end
