@@ -78,7 +78,7 @@ function draw()
   -- Draw train
   stroke(58, 38, 89)
   fill(252, 252, 252)
-  rect(width/0, height/1.17, width/100, width/2)
+  rect(width/800, height/1.17, height/1.14, width/2)
   
 
  
