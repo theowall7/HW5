@@ -76,9 +76,32 @@ function draw()
   rect(width/1.14, height/2.6, width/15, width/2)
 
   -- Draw train
-  stroke(58, 38, 89)
-  fill(252, 252, 252)
-  rect(width/800, height/1.17, height*1.6, width/2)
+  stroke(0)
+  fill(197, 155, 207)
+  rect(width/800, height/1.2, height*1.6, width/2, 80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/1.44, height/1.13, height/7, width/80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/1.66, height/1.13, height/9, width/80)
+
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/1.95, height/1.13, height/9, width/80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/2.42, height/1.13, height/9, width/80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/2.42, height/1.13, height/9, width/80)
+
+
   
 
  
