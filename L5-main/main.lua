@@ -101,21 +101,24 @@ function draw()
   fill(255, 217, 120)
   rect(width/2.42, height/1.13, height/9, width/80)
 
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/3.15, height/1.13, height/9, width/80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/4.6, height/1.13, height/9, width/80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/7.9, height/1.13, height/9, width/80)
+
+  noStroke()
+  fill(255, 217, 120)
+  rect(width/25, height/1.13, height/9, width/80)
 
   
-
- 
-
-  
- 
-  
-  
-
-
-
-  
- 
-
+  -- Mouse Coords Thingy
   fill(252, 252, 252)
   text("X: "..mouseX.."  Y: "..mouseY, mouseX+5,mouseY+30)
  
